@@ -136,12 +136,6 @@ p {
 
 }
 
-#portfolio #skills {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 50px;
-}
 
 #portfolio div {
     display: flex;
@@ -173,6 +167,13 @@ hr {
     padding: 0 5px;
 }
 
+#portfolio #skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
 progress[value] {
     height: 10px;
     width: 350px;
@@ -193,6 +194,16 @@ progress[value]::-webkit-progress-bar {
     display: flex;
     justify-content: space-around;
     width: 100%;
+}
+
+#skills {
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+#skl {
+    font-size: 2.5em;
+    margin-left: 600px;
 }
 
 #skills ul {
